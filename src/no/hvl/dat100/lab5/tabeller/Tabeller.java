@@ -12,24 +12,24 @@ public class Tabeller {
 
 
 	public static void skrivUt (int[] tabell) {
-		System.out.println("[");
+		
+		System.out.print("[");
 		
 		int [] tbl = new int [] {1, 2, 3, 4, 5};  
-		
+	
         for (int i = 0; i < tbl.length; i++) {  
         	System.out.print(tbl[i] + " ");  
-            
+        	
         }  
         System.out.println("]");
     }  
-
 	// b)
-	public static String tilStreng(int[] tabell) {
-
 	public static int[] tilStreng(int[] tabell) {
 		
+		System.out.print("[");
+		
 		int [] tbl = new int [] {42, 67, 89};  
-		System.out.println("[");
+		
         for (int i = 0; i < tbl.length; i++) {  
         	System.out.print(tbl[i] + " ");  
         	
@@ -37,6 +37,7 @@ public class Tabeller {
         System.out.println("]");
 		return tbl;
     }  
+
 
 
 	// c)
