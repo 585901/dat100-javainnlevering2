@@ -13,7 +13,7 @@ public class Tabeller {
 
 	public static void skrivUt (int[] tabell) {
 		
-		System.out.print("[");
+		System.out.print("[ ");
 		
 		int [] tbl = new int [] {1, 2, 3, 4, 5};  
 	
@@ -21,7 +21,9 @@ public class Tabeller {
         	System.out.print(tbl[i] + " ");  
         	
         }  
+        
         System.out.println("]");
+        skrivUt(tbl);// koden kommer mange ganger når vi bruker skrivUt
     }  
 	// b)
 	public static String tilStreng(int[] tabell) {
