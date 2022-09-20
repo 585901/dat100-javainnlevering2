@@ -26,18 +26,18 @@ public class Tabeller {
 	// b)
 	public static String tilStreng(int[] tabell) {
 
+	public static int[] tilStreng(int[] tabell) {
 		
-		System.out.print("[ ");
-		
-		for (int tall : tabell) {
-			System.out.print(tall + " ");
-		}
-		
-		System.out.println("]");
-		int[] itab = {42,67,89};
-		skrivUt(itab);
-		return null;
-	}
+		int [] tbl = new int [] {42, 67, 89};  
+		System.out.println("[");
+        for (int i = 0; i < tbl.length; i++) {  
+        	System.out.print(tbl[i] + " ");  
+        	
+        }  
+        System.out.println("]");
+		return tbl;
+    }  
+
 
 	// c)
 	public static int summer(int[] tabell) {
