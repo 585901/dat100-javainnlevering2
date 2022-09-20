@@ -29,14 +29,14 @@ public class Tabeller {
 		System.out.print("[ ");
 		
 		for (int tall : tabell) {
-			System.out.print(tall + "42,67,89");
+			System.out.print(tall + " ");
 		}
 		
 		System.out.println("]");
-		return null; 
+		int[] itab = {42,67,89};
+		skrivUt(itab);
+		return null;
 	}
-		
-}
 
 	// c)
 	public static int summer(int[] tabell) {
