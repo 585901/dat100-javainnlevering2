@@ -13,12 +13,14 @@ public class Tabeller {
 
 	public static void skrivUt (int[] tabell) {
 		System.out.println("[");
+		
 		int [] tbl = new int [] {1, 2, 3, 4, 5};  
 		
         for (int i = 0; i < tbl.length; i++) {  
-            System.out.print(tbl[i] + " ");  
-            System.out.println("]");
+        	System.out.print(tbl[i] + " ");  
+            
         }  
+        System.out.println("]");
     }  
 
 	// b)
