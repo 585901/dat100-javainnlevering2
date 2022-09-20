@@ -24,7 +24,7 @@ public class Tabeller {
         System.out.println("]");
     }  
 	// b)
-	public static int[] tilStreng(int[] tabell) {
+	public static String tilStreng(int[] tabell) {
 		
 		System.out.print("[");
 		
@@ -35,7 +35,8 @@ public class Tabeller {
         	
         }  
         System.out.println("]");
-		return Table;
+		return null;
+		
     }  
 
 
