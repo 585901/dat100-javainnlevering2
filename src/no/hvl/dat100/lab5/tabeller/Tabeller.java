@@ -28,16 +28,15 @@ public class Tabeller {
 		
 		System.out.print("[");
 		
-		int [] tbl = new int [] {42, 67, 89};  
+		int [] Table = new int [] {42, 67, 89};  
 		
-        for (int i = 0; i < tbl.length; i++) {  
-        	System.out.print(tbl[i] + " ");  
+        for (int i = 0; i < Table.length; i++) {  
+        	System.out.print(Table[i] + " ");  
         	
         }  
         System.out.println("]");
-		return tbl;
+		return Table;
     }  
-
 
 
 	// c)
