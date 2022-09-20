@@ -60,18 +60,21 @@ public class Tabeller {
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
 
-		boolean funnet = false; 
-		int pos = 0; 
+		boolean funnet = false;
 		
-		while (!funnet && pos < tabell.length) { 
-			
-			if (tall == tabell[pos]) {
-				funnet = true; 
+		int i = 0;
+		while (!funnet && i < tabell.length) {
+
+			if (tabell[i] > tall) {
+				funnet = true;
 
 			}
-			pos++; 
+
+			i++;
 		}
-		return funnet; 
+
+		return funnet;
+
 	}
 
 	// e)
