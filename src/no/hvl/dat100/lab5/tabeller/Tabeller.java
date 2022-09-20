@@ -47,7 +47,7 @@ public class Tabeller {
 		for (int i : Tall)
 		    sum += i;
 		
-		System.out.println("Tabellen: " + Tall + "Sum av tabellen er: " + sum);
+		System.out.println("Sum av tabellen er: " + sum);
 		
 		return sum;
 	}
