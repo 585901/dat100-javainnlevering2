@@ -11,17 +11,15 @@ import org.junit.rules.Timeout;
 public class Tabeller {
 
 
-	public static void skrivUt (int[] tabell) {		
-
-		for (int i = 0; i < tabell.length; i++) {
-
-		int t = tabell[i];
-
-		System.out.println("Indeks " + i + " inneholder " + t);
-
-		}
-	}
-}
+	public static void skrivUt (int[] tabell) {
+		System.out.println("[");
+		int [] tbl = new int [] {1, 2, 3, 4, 5};  
+		
+        for (int i = 0; i < tbl.length; i++) {  
+            System.out.print(tbl[i] + " ");  
+            System.out.println("]");
+        }  
+    }  
 
 	// b)
 	public static String tilStreng(int[] tabell) {
