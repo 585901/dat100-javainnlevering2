@@ -11,13 +11,14 @@ import org.junit.rules.Timeout;
 public class Tabeller {
 
 
-	public static void skrivUt (int[] tabell) {
-		
-		for (int i = 0; i<tabell.length; i++) {
-			
-			int t = tabell[i];
-			
-			System.out.println("indeks" + i + "inneholder" + t);
+	public static void skrivUt (int[] tabell) {		
+
+		for (int i = 0; i < tabell.length; i++) {
+
+		int t = tabell[i];
+
+		System.out.println("Indeks " + i + " inneholder " + t);
+
 		}
 	}
 }
