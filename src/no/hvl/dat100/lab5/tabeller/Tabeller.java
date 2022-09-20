@@ -25,6 +25,7 @@ public class Tabeller {
 		}
 		
 		System.out.println("]");
+		return null; 
 	}
 		
 }
