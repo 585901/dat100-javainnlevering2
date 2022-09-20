@@ -17,10 +17,17 @@ public class Tabeller {
 	// b)
 	public static String tilStreng(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
 		
+		System.out.print("[ ");
+		
+		for (int tall : tabell) {
+			System.out.print(tall + "42,67,89");
+		}
+		
+		System.out.println("]");
 	}
+		
+}
 
 	// c)
 	public static int summer(int[] tabell) {
