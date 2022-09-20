@@ -81,8 +81,15 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("reverser ikke implementert");
+		 int nummer = 1234567, reverser = 0;
+
+		    for(;nummer != 0; nummer /= 10) {
+		      int tall = nummer % 10;
+		      reverser = reverser * 10 + tall;
+		    }
+
+		    System.out.println("Reversert tall: " + reverser);
+			return tabell;
 		
 	}
 
