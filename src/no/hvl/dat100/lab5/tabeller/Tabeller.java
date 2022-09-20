@@ -41,9 +41,17 @@ public class Tabeller {
 	// c)
 	public static int summer(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("summer ikke implementert");
+		int Tall[] = {42, 67, 89};
+		int sum = 0;
+
+		for (int i : Tall)
+		    sum += i;
+		
+		System.out.println("Tabellen: " + Tall + "Sum av tabellen er: " + sum);
+		
+		return sum;
 	}
+
 
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
