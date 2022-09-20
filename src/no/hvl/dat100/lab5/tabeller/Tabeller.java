@@ -1,5 +1,13 @@
 package no.hvl.dat100.lab5.tabeller;
 
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Rule;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.rules.TestRule;
+import org.junit.rules.Timeout;
+
 public class Tabeller {
 
 
