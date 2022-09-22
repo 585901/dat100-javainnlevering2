@@ -88,18 +88,20 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
 
-		 int nummer = 1234567, reverser = 0;
-
-		    for(;nummer != 0; nummer /= 10) {
-		      int tall = nummer % 10;
-		      reverser = reverser * 10 + tall;
-		    }
-
-		    System.out.println("Reversert tall: " + reverser);
-			return tabell;
+		String stringInput = "1234567"; 
+		
+				int iStrLength=stringInput.length(); 
+		
+		for(iStrLength=stringInput.length();iStrLength>0;--iStrLength) 
+			
+			{ 
+			
+			System.out.print(stringInput.charAt(iStrLength-1));
+			
+		}
+		return tabell;
 		
 	}
-
 	// g)
 	public static boolean erSortert(int[] tabell) {
 
