@@ -145,20 +145,17 @@ public class Tabeller {
 	// g)
 	public static boolean erSortert(int[] tabell) {
 
-		public static boolean erSortert(int[] tab) { 
-			
-			boolean sortert = true; 
-			int i = 0; 
-			while  ( (i < tab.length - 1) && sortert){ 
-				if (tab[i] > tab[i + 1]) { 
-					sortert = false; 
-					
-				}
-				i++; 
+		boolean erSortert = true; 
+		int i = 0; 
+		while  ( (i < tabell.length - 1) && erSortert){ 
+			if (tabell[i] > tabell[i + 1]) { 
+				erSortert = false; 
+				
 			}
-			
-			System.out.println("i= " + i); 
-			return sortert; 
+			i++; 
+		}
+		return erSortert;
+
 	}
 
 	// h)
