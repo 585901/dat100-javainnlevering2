@@ -159,9 +159,31 @@ public class Tabeller {
 	}
 
 	// h)
+	
+	public static void main(String[] args) {
+		
+		int[] tabell1 = {1,2,3};
+		int[] tabell2 = {4,5,6};
+		
+		settSammen(tabell1, tabell2);
+		
+		System.out.println(settSammen(tabell1, tabell2));
+	
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
 
-		// TODO
-		throw new UnsupportedOperationException("settSammen ikke implementert");
-	}
+			int nyLengde = tabell1.length + tabell2.length;
+		int[] newTabell = new int[nyLengde];
+		for (int i=0; i<tabell1.length; i++) {
+			newTabell[i] = tabell1[i];
+		}
+		
+		for (int j = 0; j<tabell1.length; j++) {
+			newTabell[tabell1.length+j] = tabell2[j];
+		}
+		
+		return newTabell;
+		
+	} 
+	
+	
 }
