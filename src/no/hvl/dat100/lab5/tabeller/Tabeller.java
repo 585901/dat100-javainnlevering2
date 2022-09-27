@@ -127,19 +127,20 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
 
-		String stringInput = "1234567"; 
-		
-				int iStrLength=stringInput.length(); 
-		
-		for(iStrLength=stringInput.length();iStrLength>0;--iStrLength) 
-			
-			{ 
-			
-			System.out.print(stringInput.charAt(iStrLength-1));
-			
+		String stringInput = "1234567";
+
+		int iStrLength = stringInput.length();
+
+		for (iStrLength = stringInput.length(); iStrLength > 0; --iStrLength)
+
+		{
+
+		System.out.println(stringInput.charAt(iStrLength - 1));
+
 		}
-		return tabell;
 		
+		return tabell;
+
 	}
 	// g)
 	public static boolean erSortert(int[] tabell) {
