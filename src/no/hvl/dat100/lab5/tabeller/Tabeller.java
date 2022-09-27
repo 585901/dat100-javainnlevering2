@@ -42,18 +42,51 @@ public class Tabeller {
     }  
 
 
-	// c)
+	// c1) - for-løkke
 	public static int summer(int[] tabell) {
 
-		int Tall[] = {42, 67, 89};
+		int Tall[] = { 42, 67, 89 };
 		int sum = 0;
 
 		for (int i : Tall)
-		    sum += i;
-		
-		System.out.println("Sum av tabellen er: " + sum);
-		
+			sum += i;
+
+		System.out.println("Summen av tabellen er: " + sum);
 		return sum;
+
+	}
+
+	// c2 - utvidet for-løkke
+	public static int summer1(int[] tabell) {
+
+		int Tall1[] = { 42, 67, 89 };
+		int sum = 0;
+
+		for (int i = 0; i < Tall1.length; i++) {
+
+			System.out.println("Sum1 av tabellen er: " + sum);
+
+		}
+
+		return sum;
+
+	}
+
+	// c3 - while-løkke
+	public static int summer2(int[] tabell) {
+
+		int i = 0;
+		int Tall3[] = { 42, 67, 89 };
+
+		while (i < Tall3.length) {
+
+			i++;
+
+		}
+
+		System.out.println("Sum2 av tabellen er: " + i);
+		return i;
+
 	}
 
 
