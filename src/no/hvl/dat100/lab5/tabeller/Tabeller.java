@@ -113,10 +113,16 @@ public class Tabeller {
 	// e)
 	public static int posisjonTall(int[] tabell, int tall) {
 
-		// TODO
-		throw new UnsupportedOperationException("posisjonTall ikke implementert");
+			
+			int [] itab = new int [] {tall, -1, -1};  
+		
 
-	}
+			System.out.println(itab);
+			return tall;
+	    }  
+
+	
+
 
 	// f)
 	public static int[] reverser(int[] tabell) {
