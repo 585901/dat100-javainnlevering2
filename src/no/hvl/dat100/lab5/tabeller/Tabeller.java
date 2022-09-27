@@ -144,8 +144,20 @@ public class Tabeller {
 	// g)
 	public static boolean erSortert(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("erSortert ikke implementert");
+		public static boolean erSortert(int[] tab) { 
+			
+			boolean sortert = true; 
+			int i = 0; 
+			while  ( (i < tab.length - 1) && sortert){ 
+				if (tab[i] > tab[i + 1]) { 
+					sortert = false; 
+					
+				}
+				i++; 
+			}
+			
+			System.out.println("i= " + i); 
+			return sortert; 
 	}
 
 	// h)
