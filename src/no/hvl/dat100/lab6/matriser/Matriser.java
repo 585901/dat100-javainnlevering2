@@ -17,7 +17,7 @@ public class Matriser {
 	public static String tilStreng(int[][] matrise) {
 
 		int[][] matrise1 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-		String utTxt = "Matrise:" + "\n" + skriv(matrise1) + "\n";
+		String utTxt = skriv(matrise1) + "\n";
 		showMessageDialog(null, utTxt);
 		return utTxt;
 
