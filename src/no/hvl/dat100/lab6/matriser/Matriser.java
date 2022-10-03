@@ -16,9 +16,21 @@ public class Matriser {
 	// b)
 	public static String tilStreng(int[][] matrise) {
 
-		// TODO
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
-		
+		int[][] matrise1 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+		String utTxt = "Matrise:" + "\n" + skriv(matrise1) + "\n";
+		showMessageDialog(null, utTxt);
+		return utTxt;
+
+	}
+
+	public static String skriv(int[][] tab) {
+		String txt = "";
+		for (int i = 0; i < tab.length; i++) {
+			for (int j = 0; j < tab.length; j++)
+				txt += tab[i][j] + "  ";
+			txt += "\n";
+		}
+		return txt;
 	}
 
 	// c)
