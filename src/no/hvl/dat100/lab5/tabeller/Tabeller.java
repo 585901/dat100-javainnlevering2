@@ -171,7 +171,7 @@ public class Tabeller {
 	
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
 
-			int nyLengde = tabell1.length + tabell2.length;
+		int nyLengde = tabell1.length + tabell2.length;
 		int[] newTabell = new int[nyLengde];
 		for (int i=0; i<tabell1.length; i++) {
 			newTabell[i] = tabell1[i];
