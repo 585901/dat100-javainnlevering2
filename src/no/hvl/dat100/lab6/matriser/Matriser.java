@@ -1,5 +1,7 @@
 package no.hvl.dat100.lab6.matriser;
 
+import static javax.swing.JOptionPane.showMessageDialog;
+
 public class Matriser {
 
 	// a)
