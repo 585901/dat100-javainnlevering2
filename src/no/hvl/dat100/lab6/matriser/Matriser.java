@@ -42,9 +42,9 @@ public class Matriser {
 	}
 
 	// d)
-	public static boolean erLik(int[][] a, int[][] b) {
-
-		if (mat1.length != mat2.length || mat1[0].length != mat2[0].length) {
+	public static boolean erLik(int[][] mat1, int[][] mat2) {
+	
+	  if (mat1.length != mat2.length || mat1[0].length != mat2[0].length) {
 	        return false;
 	    }
 	    for(int i = 0; i < mat1.length; i++) {
@@ -57,17 +57,17 @@ public class Matriser {
 	    return true; 
 	    		
 	    }
-             public static void main(String[] args) 
-          {
-            int[][] a = {{1,4,2},{5,3,9},{3,8,4}};
-            int[][] b = {{1,4,2},{5,3,9},{3,8,4}};
+    public static void main(String[] args) 
+ {
+    int[][] a = {{1,4,2},{5,3,9},{3,8,4}};
+    int[][] b = {{1,4,2},{5,3,9},{3,8,4}};
 
-            if(erLik(a, b))
-         {
-    	   System.out.println("True");
+    if(erLik(a, b))
+    {
+    	System.out.println("True");
     	
-         } else {
-    	  System.out.println("False");
+    }else {
+    	System.out.println("False");
     	}
     }
     }
