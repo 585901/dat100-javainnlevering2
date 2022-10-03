@@ -34,21 +34,6 @@ public class Matriser {
 
 		// TODO
 		throw new UnsupportedOperationException("erLik ikke implementert");
-	}
-	
-	// e)
-	public static int[][] speile(int[][] matrise) {
-
-		// TODO
-		throw new UnsupportedOperationException("speile ikke implementert");
-	
-	}
-
-	// f)
-	public static int[][] multipliser(int[][] a, int[][] b) {
-
-		// TODO
-		throw new UnsupportedOperationException("multipliser ikke implementert");
 	
 	}
 }
