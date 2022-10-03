@@ -59,10 +59,10 @@ public class Matriser {
 	    }
              public static void main(String[] args) 
           {
-            int[][] int1 = {{1,4,2},{5,3,9},{3,8,4}};
-            int[][] int2 = {{1,4,2},{5,3,9},{3,8,4}};
+            int[][] a = {{1,4,2},{5,3,9},{3,8,4}};
+            int[][] b = {{1,4,2},{5,3,9},{3,8,4}};
 
-            if(erLik(int1, int2))
+            if(erLik(a, b))
          {
     	   System.out.println("True");
     	
