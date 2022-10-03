@@ -159,15 +159,7 @@ public class Tabeller {
 	}
 
 	// h)
-	
-	public static void main(String[] args) {
-		
-		int[] tabell1 = {1,2,3};
-		int[] tabell2 = {4,5,6};
-		
-		settSammen(tabell1, tabell2);
-		
-		System.out.println(settSammen(tabell1, tabell2));
+
 	
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
 
