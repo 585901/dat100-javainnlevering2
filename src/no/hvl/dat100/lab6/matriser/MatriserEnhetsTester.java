@@ -85,4 +85,10 @@ class MatriserEnhetsTester {
 		assertTrue(Matriser.erLik(a, a));
 		assertFalse(Matriser.erLik(a, b));
 	}
+	
+	@Test
+	void testskrivUt() {
+		Matriser.skrivUt(a);
+		Matriser.skrivUt(b);
+	}
 }
